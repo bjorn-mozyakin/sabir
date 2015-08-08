@@ -20,3 +20,12 @@ small {
 h3 {
   outline: 1px dashed black;
 }
+
+th {
+  text-align: center;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}

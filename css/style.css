@@ -29,3 +29,11 @@ th:first-child,
 td:first-child {
   text-align: left;
 }
+
+.btn-toolbar {
+  outline: 1px solid blue;
+}
+
+.btn-group {
+  outline: 2px dashed yellow;
+}

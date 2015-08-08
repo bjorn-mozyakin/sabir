@@ -5,80 +5,202 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-	<title>Шаблон Bootstrap 101</title>
+  <title>Шаблон Bootstrap 101</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-  	<div class="container">
-	<div class="row">
-		  <div class="col-md-4">Лого</div>
-		  <div class="col-md-8">
-		  	<div class="navbar">
-		  		<nav class="navbar-inner">
-		  			<ul class="nav nav-pills nav-justified">
-		  				<li><a href="">1</a></li>
-		  				<li><a href="">2</a></li>
-		  				<li><a href="">Транспонировать аккорды</a></li>
-		  				<li><a href="">Настройка гитары</a></li>
-		  				<li><a href="">Программы</a></li>
-		  			</ul>
-		  		</nav>
-		  	</div>
-		  </div>
-	</div>
-	<div class="row">
-		  <div class="col-md-12">
-			  <ul class="nav nav-pills nav-justified">
-			  	<li><a href="1">А</a></li>
-			  	<li><a href="2">Б</a></li>
-			  	<li><a href="3">В</a></li>
-			  	<li><a href="4">Г</a></li>
-			  	<li><a href="5">Д</a></li>
-			  	<li><a href="6">Е</a></li>
-			  	<li><a href="7">Ж</a></li>
-			  	<li><a href="8">З</a></li>
-			  	<li><a href="9">И</a></li>
-			  	<li><a href="10">Й</a></li>
-			  	<li><a href="11">К</a></li>
-			  	<li><a href="12">Л</a></li>
-			  	<li><a href="13">М</a></li>
-			  	<li><a href="14">Н</a></li>
-			  	<li><a href="15">О</a></li>
-			  	<li><a href="16">П</a></li>
-			  	<li><a href="17">Р</a></li>
-			  	<li><a href="18">С</a></li>
-			  	<li><a href="19">Т</a></li>
-			  	<li><a href="20">У</a></li>
-			  	<li><a href="21">Ф</a></li>
-			  	<li><a href="22">Х</a></li>
-			  	<li><a href="23">Ц</a></li>
-			  	<li><a href="24">Ч</a></li>
-			  	<li><a href="25">Ш</a></li>
-			  	<li><a href="26">Щ</a></li>
-			  	<li><a href="27">Э</a></li>
-			  	<li><a href="28">Ю</a></li>
-			  	<li><a href="29">Я</a></li>
-			  	<li><a href="30">0..9</a></li>
-			  </ul>
-		  </div>
-	</div>
-	<div class="row">
-		  <div class="col-md-12">Английский алфавит</div>
-	</div>	
-	<div class="row">
-		  <div class="col-md-3">Популярные исполнители</div>
-		  <div class="col-md-3">Популярные песни</div>
-		  <div class="col-md-3">Последние песни</div>
-		  <div class="col-md-3">Самые комментируемые</div>
-	</div>
-	<div class="row">
-		  <div class="col-md-3">Level 2</div>
-		  <div class="col-md-6">Level 2</div>
-		  <div class="col-md-3">Level 2</div>
-	</div>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-2">Лого</div>
+        <div class="col-md-10">
+          <div class="navbar">
+            <nav class="navbar-inner">
+              <ul class="nav nav-pills nav-justified">
+                <li aria-label="Главная"><a href=""><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                <li><a href="">Генератор аккордов</a></li>
+                <li><a href="">Транспонировать аккорды</a></li>
+                <li><a href="">Настройка гитары</a></li>
+                <li><a href="">Программы</a></li>
+                <li><a href="">Новости</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Go!</button>
+            </span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills nav-justified">
+            <li><a href="1">А</a></li>
+            <li><a href="2">Б</a></li>
+            <li><a href="3">В</a></li>
+            <li><a href="4">Г</a></li>
+            <li><a href="5">Д</a></li>
+            <li><a href="6">Е</a></li>
+            <li><a href="7">Ж</a></li>
+            <li><a href="8">З</a></li>
+            <li><a href="9">И</a></li>
+            <li><a href="10">Й</a></li>
+            <li><a href="11">К</a></li>
+            <li><a href="12">Л</a></li>
+            <li><a href="13">М</a></li>
+            <li><a href="14">Н</a></li>
+            <li><a href="15">О</a></li>
+            <li><a href="16">П</a></li>
+            <li><a href="17">Р</a></li>
+            <li><a href="18">С</a></li>
+            <li><a href="19">Т</a></li>
+            <li><a href="20">У</a></li>
+            <li><a href="21">Ф</a></li>
+            <li><a href="22">Х</a></li>
+            <li><a href="23">Ц</a></li>
+            <li><a href="24">Ч</a></li>
+            <li><a href="25">Ш</a></li>
+            <li><a href="26">Щ</a></li>
+            <li><a href="27">Э</a></li>
+            <li><a href="28">Ю</a></li>
+            <li><a href="29">Я</a></li>
+            <li><a href="30">0..9</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-12">
+           <ul class="nav nav-pills nav-justified">
+              <li><a href="1">A</a></li>
+              <li><a href="2">B</a></li>
+              <li><a href="3">C</a></li>
+              <li><a href="4">D</a></li>
+              <li><a href="5">E</a></li>
+              <li><a href="6">F</a></li>
+              <li><a href="7">G</a></li>
+              <li><a href="8">H</a></li>
+              <li><a href="9">I</a></li>
+              <li><a href="10">J</a></li>
+              <li><a href="11">K</a></li>
+              <li><a href="12">L</a></li>
+              <li><a href="13">M</a></li>
+              <li><a href="14">N</a></li>
+              <li><a href="15">O</a></li>
+              <li><a href="16">P</a></li>
+              <li><a href="17">Q</a></li>
+              <li><a href="18">R</a></li>
+              <li><a href="19">S</a></li>
+              <li><a href="20">T</a></li>
+              <li><a href="21">U</a></li>
+              <li><a href="22">V</a></li>
+              <li><a href="23">W</a></li>
+              <li><a href="24">X</a></li>
+              <li><a href="25">Y</a></li>
+              <li><a href="26">Z</a></li>
+          </ul>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-4">
+            <h4 class="text-center">Новинки</h4 class-"text-center">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Бред - <small>Мураками</small></td>
+                </tr>
+                <tr>
+                  <td>Весь мир на ладони - <small>Уриевский Василий</small></td>
+                </tr>
+                <tr>
+                  <td>Жадина - <small>Noize MC</small></td>
+                </tr>
+                <tr>
+                  <td>Дыши - <small>Animal Джаз</small></td>
+                </tr>
+                <tr>
+                  <td>Проклятый старый дом - <small>Король и шут</small></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <div class="col-md-4">
+            <h4 class="text-center">Популярные песни</h4 class-"text-center">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Бред - <small>Мураками</small></td>
+                </tr>
+                <tr>
+                  <td>Весь мир на ладони - <small>Уриевский Василий</small></td>
+                </tr>
+                <tr>
+                  <td>Жадина - <small>Noize MC</small></td>
+                </tr>
+                <tr>
+                  <td>Дыши - <small>Animal Джаз</small></td>
+                </tr>
+                <tr>
+                  <td>Проклятый старый дом - <small>Король и шут</small></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-center">Популярные исполнители</h4 class-"text-center">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Мураками</td>
+                </tr>
+                <tr>
+                  <td>Уриевский</td>
+                </tr>
+                <tr>
+                  <td>Noize MC</td>
+                </tr>
+                <tr>
+                  <td>7000$</td>
+                </tr>
+                <tr>
+                  <td>Король и шут</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-12"><h4>Песни по тегам</h4></div>
+          <div class="col-md-3">Поп</div>
+          <div class="col-md-3">Рок</div>
+          <div class="col-md-3">Джаз</div>
+          <div class="col-md-3">Блюз</div>          
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <p>(c) sabir1.ru, 2015</p>
+          <small>Design by Z.R.A.K.</small>
+        </div>
+      </div>
+
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+    </div>
   </body>
 </html>
